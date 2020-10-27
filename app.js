@@ -1,5 +1,5 @@
-const accordions = document.querySelectorAll('#accordion');
-const accordionArr = Array.from(accordion);
+const accordions = document.querySelectorAll('.accordion');
+const accordionArr = Array.from(accordions);
 const accordionCard = document.querySelector('#accordion-card');
 const imgDiv = document.querySelector('.desktop-index-three');
 
