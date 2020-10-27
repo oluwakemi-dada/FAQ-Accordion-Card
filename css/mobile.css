@@ -45,7 +45,7 @@
     grid-template-columns: none;
     width: 70%;
     min-height: 70vh;
-    margin-top: 10%;
+    margin-top: 30%;
   }
 
   #faq-container .faq-card .card-left .desktop-index-one,
@@ -112,8 +112,8 @@
 
   #faq-container .faq-card {
     width: 90%;
-    min-height: 80vh;
-    margin-top: 15%;
+    min-height: 52vh;
+    margin-top: 25%;
   }
 
   #faq-container .faq-card .card-left .mobile-index-one img {
