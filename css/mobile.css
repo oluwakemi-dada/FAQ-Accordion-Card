@@ -31,7 +31,7 @@
     left: -10.3%;
   }
 
-  #faq-container .faq-card .card-right #accordion.active .content {
+  #faq-container .faq-card .card-right .accordion.active .content {
     height: 90px;
   }
 }
@@ -100,7 +100,7 @@
     padding-left: 0;
   }
 
-  #faq-container .faq-card .card-right #accordion.active .content {
+  #faq-container .faq-card .card-right .accordion.active .content {
     height: 93px;
   }
 }
@@ -141,7 +141,7 @@
     padding-left: 0;
   }
 
-  #faq-container .faq-card .card-right #accordion.active .content {
+  #faq-container .faq-card .card-right .accordion.active .content {
     height: 65px;
   }
 }
@@ -152,7 +152,7 @@
     font-size: 50%;
   }
 
-  #faq-container .faq-card .card-right #accordion.active .content {
+  #faq-container .faq-card .card-right .accordion.active .content {
     height: 35px;
   }
 }

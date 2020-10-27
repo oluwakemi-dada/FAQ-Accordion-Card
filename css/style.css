@@ -32,7 +32,6 @@ h3 {
   max-width: 1440px;
   margin: auto;
   overflow: hidden;
-  overflow-y: auto;
 }
 
 #faq-container {
@@ -129,42 +128,42 @@ h3 {
   font-weight: 700;
 }
 
-#faq-container .faq-card .card-right #accordion {
+#faq-container .faq-card .card-right .accordion {
   padding: 1rem;
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-#faq-container .faq-card .card-right #accordion .label {
+#faq-container .faq-card .card-right .accordion .label {
   position: relative;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
-#faq-container .faq-card .card-right #accordion.active .label {
+#faq-container .faq-card .card-right .accordion.active .label {
   font-weight: 700;
 }
-#faq-container .faq-card .card-right #accordion:hover .label {
+#faq-container .faq-card .card-right .accordion:hover .label {
   color: hsl(14, 88%, 65%);
   transition: 0.2s ease-out;
 }
 
-#faq-container .faq-card .card-right #accordion .label::after {
+#faq-container .faq-card .card-right .accordion .label::after {
   content: url('../img/icon-arrow-down.svg');
   position: absolute;
   right: 0;
 }
 
-#faq-container .faq-card .card-right #accordion.active .label::after {
+#faq-container .faq-card .card-right .accordion.active .label::after {
   transform: rotate(180deg);
   transition: 0.5s ease-in-out;
 }
 
-#faq-container .faq-card .card-right #accordion .content {
+#faq-container .faq-card .card-right .accordion .content {
   overflow: hidden;
   transition: 0.7s ease-out;
   height: 0;
 }
 
-#faq-container .faq-card .card-right #accordion.active .content {
+#faq-container .faq-card .card-right .accordion.active .content {
   height: 60px;
 }
