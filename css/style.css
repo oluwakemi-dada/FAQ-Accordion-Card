@@ -46,37 +46,20 @@ h3 {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 5% 20%;
 }
 
 #faq-container .faq-card {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 5rem;
   background: #fff;
-  width: 60%;
   border-radius: 20px;
-  min-height: 70vh;
 }
 
 #faq-container .faq-card .card-left .mobile-index-one,
 #faq-container .faq-card .card-left .mobile-index-two {
   display: none;
-}
-
-#faq-container .faq-card .card-left .desktop-index-one {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-#faq-container .faq-card .card-left .desktop-index-one img {
-  position: absolute;
-  top: -34%;
-  left: -35%;
-  width: 60%;
-  height: 112%;
-  z-index: 1;
 }
 
 #faq-container .faq-card .card-left .desktop-index-two {
@@ -117,11 +100,7 @@ h3 {
 }
 
 #faq-container .faq-card .card-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-right: 4rem;
+  padding: 9rem 3rem;
 }
 
 #faq-container .faq-card .card-right h1 {
@@ -163,10 +142,9 @@ h3 {
 
 #faq-container .faq-card .card-right .accordion .content {
   overflow: hidden;
-  transition: 0.7s ease-out;
   height: 0;
 }
 
 #faq-container .faq-card .card-right .accordion.active .content {
-  height: 60px;
+  height: 100%;
 }
