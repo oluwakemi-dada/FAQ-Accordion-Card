@@ -40,11 +40,11 @@ h3 {
 
 #faq-container {
   min-height: 100vh;
-  background: linear-gradient(179deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background: linear-gradient(270deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-size: 400% 400%;
-  -webkit-animation: colorTransition 4s ease infinite;
-  -moz-animation: colorTransition 4s ease infinite;
-  animation: colorTransition 4s ease infinite;
+  -webkit-animation: colorTransition 6s ease infinite;
+  -moz-animation: colorTransition 6s ease infinite;
+  animation: colorTransition 6s ease infinite;
 
   background-repeat: no-repeat;
   display: flex;
@@ -86,7 +86,7 @@ h3 {
   left: 49.4%;
   margin-left: -45.2rem;
   animation-name: bounce;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
@@ -174,44 +174,44 @@ h3 {
   }
 
   50% {
-    transform: translateY(-0.9rem);
+    transform: translateY(-1.2rem);
   }
 
   100% {
-    transform: translateY(0.3rem);
+    transform: translateY(0.1rem);
   }
 }
 
 @-webkit-keyframes colorTransition {
   0% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 50% 100%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
 }
 @-moz-keyframes colorTransition {
   0% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 50% 100%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
 }
 @keyframes colorTransition {
   0% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 50% 100%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 51% 0%;
+    background-position: 0% 50%;
   }
 }
